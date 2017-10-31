@@ -1,0 +1,45 @@
+{
+  "name": "gm-react-comp",
+  "version": "1.0.2",
+  "description": "My persnoal ReactJs components",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielinaciodemello/gm-react-comp.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "front"
+  ],
+  "author": "Gabriel Mello <gabrielinaciodemello@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielinaciodemello/gm-react-comp/issues"
+  },
+  "homepage": "https://github.com/gabrielinaciodemello/gm-react-comp#readme",
+  "peerDependencies": {},
+  "dependencies": {
+    "material-ui": "^0.19.4",
+    "radium": "^0.19.6",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-flexbox-grid": "^2.0.0",
+    "react-router-dom": "^4.2.2",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
