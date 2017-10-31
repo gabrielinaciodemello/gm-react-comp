@@ -1,6 +1,6 @@
 {
   "name": "gm-react-comp",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "My persnoal ReactJs components",
   "main": "build/index.js",
   "scripts": {
@@ -23,11 +23,12 @@
     "url": "https://github.com/gabrielinaciodemello/gm-react-comp/issues"
   },
   "homepage": "https://github.com/gabrielinaciodemello/gm-react-comp#readme",
-  "peerDependencies": {},
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
   "dependencies": {
     "material-ui": "^0.19.4",
     "radium": "^0.19.6",
-    "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-flexbox-grid": "^2.0.0",
     "react-router-dom": "^4.2.2",

@@ -9,15 +9,11 @@ import AppLoading from '../AppLoading';
 class Layout extends Component {    
     render(){
         return(
-            <StyleRoot>
-                <MuiThemeProvider>
-                    <div>
-                        <AppLoading loading={this.props.appLoading}/>
-                        <LeftMenu menuAvatar={this.props.menuAvatar} menuButtons={this.props.menuButtons}/>
-                        <Content contentViews={this.props.contentViews} routeChange={this.props.routeChange}/>
-                    </div>
-                </MuiThemeProvider>
-            </StyleRoot>
+            <div>
+                <AppLoading loading={this.props.appLoading}/>
+                <LeftMenu menuAvatar={this.props.menuAvatar} menuButtons={this.props.menuButtons}/>
+                <Content contentViews={this.props.contentViews} routeChange={this.props.routeChange}/>
+            </div>
         );
     }
 }
