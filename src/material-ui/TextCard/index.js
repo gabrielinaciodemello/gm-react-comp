@@ -12,7 +12,9 @@ class TextCard extends Component {
     render() {
         return (
             <Card>
-                <CardTitle title={this.props.title} titleColor={this.styles.titleColor}/>
+                <CardTitle  title={this.props.title} 
+                            titleColor={this.styles.titleColor} 
+                            subtitle={this.props.subTitle}/>
                 <CardText dangerouslySetInnerHTML={{__html: this.props.text}}/>
                 <br/>
                 <br/>
